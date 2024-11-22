@@ -1,0 +1,33 @@
+create database employee;
+USE employee;
+
+CREATE TABLE employee_table(  
+    id int NOT NULL AUTO_INCREMENT,  
+    name varchar(45) NOT NULL,  
+    salary int NOT NULL,  
+    PRIMARY KEY (id)  
+);  
+
+CREATE TABLE EMP_COUNT(
+EMP_ID INT NOT NULL PRIMARY KEY,
+EMP_COUNT INT NOT NULL
+);
+
+INSERT INTO EMP_COUNT VALUE(201,0);
+show tables;
+
+DELIMITER $$
+
+CREATE TRIGGER EMP_COUNT AFTER INSERT ON employee_table FOR EACH ROW 
+BEGIN
+DECLARE EMPCOUNT INT;
+
+SELECT COUNT(id) INTO EMPCOUNT FROM employee_table;
+UPDATE EMP_COUNT SET EMP_COUNT=EMPCOUNT WHERE EMP_ID=201;
+END $$
+DELIMITER ;
+
+DROP TRIGGER EMP_COUNT;
+SELECT * FROM employee_table;
+INSERT employee_table value(104,'padma',5000);
+SELECT * FROM EMP_COUNT;
