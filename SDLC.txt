@@ -1,0 +1,82 @@
+Name - Sri Padma Priyadharshini S
+Domain - Testing 
+Diesgination - Trainee
+Date - 27-11-2024
+SDLC
+The Software Testing Life Cycle (STLC) is a series of phases that define the process of testing a software application. It outlines the steps involved in testing from the initial stage of planning through to the final delivery of the product. The main goal of STLC is to ensure the software meets the specified requirements and is free of defects.
+1. Requirement Analysis
+Objective: Understand software requirements and evaluate them for testability.
+Roles Involved:
+Business Analyst (BA): Provides and explains requirements.
+Test Manager: Reviews requirements for testability and identifies risks.
+Test Lead: Determines the types of testing required.
+Test Engineer/Tester: Identifies gaps and testable components.
+Development Team: Clarifies technical aspects and constraints.
+Key Activities:
+Analyze requirements to ensure they are testable.
+Define the testing scope and approach.
+2. Test Planning
+Objective: Define the testing scope, resources, schedule, and deliverables.
+Roles Involved:
+Test Manager: Develops the test strategy, plans resources, and manages risks.
+Test Lead: Assists in defining testing approach and selecting tools.
+Test Engineer/Tester: Provides input on scenarios, environment, and tool requirements.
+Project Manager: Helps with resource allocation and scheduling.
+Development Team: Provides technical input for environment setup.
+Key Activities:
+Create the test strategy and plan.
+Estimate time, resources, and identify types of testing (e.g., functional, performance).
+3. Test Design
+Objective: Design test cases, scenarios, and prepare test data.
+Roles Involved:
+Test Lead: Oversees test case creation and ensures they meet requirements.
+Test Engineer/Tester: Designs test cases, writes scripts, and prepares test data.
+Automation Tester (if applicable): Creates automated test scripts.
+Business Analyst: Clarifies expected behavior for test case design.
+Key Activities:
+Design and write test cases and scripts.
+Prepare test data and scenarios.
+Review and approve test designs.
+4. Test Environment Setup
+Objective: Set up the test environment, tools, and systems for executing tests.
+Roles Involved:
+Test Manager: Ensures proper test environment setup and resource allocation.
+Test Lead: Coordinates the setup and availability of tools and environment.
+Test Engineer/Tester: Provides input for environment configuration based on test needs.
+System/Network Administrator: Sets up the necessary hardware and software.
+DevOps/Automation Engineer: Configures automation environments and tools.
+Development Team: Supports with build deployment and environment configurations.
+Key Activities:
+Set up hardware, software, and network configurations.
+Ensure test environment replicates production as closely as possible.
+5. Test Execution
+Objective: Execute test cases and log the results.
+Roles Involved:
+Test Lead: Monitors test execution and manages timelines.
+Test Engineer/Tester: Executes tests, logs defects, and tracks progress.
+Automation Tester (if applicable): Runs automated tests and analyzes results.
+Development Team: Investigates and fixes defects identified during execution.
+Key Activities:
+Run tests and log defects.
+Report progress and communicate issues to development.
+6. Defect Reporting and Tracking
+Objective: Track defects and ensure their resolution.
+Roles Involved:
+Test Lead: Ensures defects are properly logged and tracked to closure.
+Test Engineer/Tester: Logs defects, retests after fixes.
+Development Team: Resolves defects and collaborates with testers.
+Project Manager: Monitors defect status and testing progress.
+Key Activities:
+Log, prioritize, and track defects.
+Verify defect resolution through retesting.
+7. Test Closure
+Objective: Finalize testing activities and prepare final reports.
+Roles Involved:
+Test Manager: Reviews test results and prepares the final test report.
+Test Lead: Analyzes test execution and lessons learned.
+Test Engineer/Tester: Provides feedback on the process and final results.
+Project Manager: Confirms testing completion and verifies deliverables.
+Development Team: Provides final feedback on the product.
+Key Activities:
+Prepare test closure reports and documentation.
+Evaluate and identify areas for process improvement.
